@@ -62,7 +62,6 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     environment:
         name: github-pages
         url: ${{ steps.deployment.outputs.page_url }}
@@ -79,7 +78,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-          cache: "pip" # caching pip dependencies
+          cache: "pip"
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -97,7 +96,7 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Deploy to GitHub Pages
-          id: deployment
-          uses: actions/deploy-pages@v4
-          with:
-            folder: _site
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          folder: _site

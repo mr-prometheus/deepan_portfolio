@@ -1,0 +1,202 @@
+title: General Information
+type: map
+contents:
+  - name: Full Name
+    value: Deepan Adak
+  - name: Date of Birth
+    value: Not specified
+  - name: Languages
+    value: English, Hindi
+
+title: Education
+type: time_table
+contents:
+  - title: B.Tech in Electrical Engineering
+    institution: National Institute of Technology, Kurukshetra
+    year: May 2020 - May 2024
+    description:
+      - CGPA: 8.28
+
+title: Experience
+type: time_table
+contents:
+  - title: Machine Learning Engineer (Project Associate)
+    institution: Indian Institute of Science, Bangalore (AIREX LAB)
+    year: June 2024 - Present
+    description:
+      - Developed and implemented machine learning models for the classification of radar intercept points of combat jets, improving accuracy by 25%.
+      - Developed various microservices using Golang for Zenteiq.ai (AI Based LMS System), implementing inter-service communication via Apache Kafka to ensure reliable data streaming and improve system scalability by 45%.
+      - Building high-throughput LLM REST API services using FastAPI, Kubernetes and Apache Kafka with an average inferencing time of 800ms.
+      - Utilized MLflow to create an end-to-end ML pipeline for continuous training, and designed an interactive React.js dashboard for seamless model interaction, boosting user engagement by 35%.
+      - Developed a RAG pipeline using LangChain and various ML models to enhance query-driven interactions for a course-oriented knowledge base from a ChromaDB Vector Database.
+
+  - title: Software Intern
+    institution: Microsoft Team - Cloud & AI
+    year: Jan 2023 - June 2023
+    description:
+      - Collaborated with a team of developers to design and implement solutions using the Stack C# framework.
+      - Implemented Integration test cases, and bug fixing to ensure high-quality code and software reliability.
+      - Integrated PowerBI template app solutions for Azure which streamlined automated deployment process by 60%
+      - Implemented integration between Azure Marketplace, Appsource, and Solution Center, reducing deployment services by 62.5%
+
+  - title: Research Intern
+    institution: University of Central Florida
+    advisor: Dr. Yogesh S Rawat
+    year: September 2023 - April 2024
+    description:
+      - Applied both Vision Transformers and Convolutional Neural Networks (CNNs) for pose estimations on NTU-120 Skeleton Points Dataset, and improved accuracy by 10%, achieving 95% accuracy.
+      - Curated Multiple datasets for Chemistry Based task predictions involving finetuning task for Vision Language Models like Llama Adapter, BLIP, CogVLM etc.
+      - Leveraged LLM and VLM (BLIP2, Llava 1.5 etc) methodologies to enhance accuracy in chemistry-based tasks, surpassing benchmarks by over 20% (Work Submitted at CVPR,2025)
+
+  - title: Research Intern
+    institution: National Institute of Technology, Kurukshetra
+    advisor: Dr. Gaurav Verma
+    year: Jan 2024 - April 2024
+    description:
+      - Conducted segmentation of renal blood vessels using the Deeplabv3+ model, enhancing medical image analysis for improved diagnostic accuracy and achieving ROC of 72%, 10% higher than previous benchmark.
+      - Designed and developed an autonomous Rubik's Cube solver, incorporating advancements in robotics and algorithm optimization including Complex DIP techniques and CFOP algorithm to solve Rubik's Cube.
+      - Curated and Annotated Rubik's Cube dataset for Face detection utilized in the autonomous bot and achieved an accuracy of 98%.
+
+title: Publications
+type: time_table
+contents:
+  - title: "MoP2-Bench: Large Vision Language Models for Molecular Property Prediction"
+    year: Under review (CVPR 2025)
+
+  - title: "LesionLensPro: Skin Cancer Detection using an Ensemble Approach with EfficientNetV2 and ResNet"
+    year: Accepted (8th International Conference on Micro-Electronics and Telecommunication Engineering)
+    link: Paper Link
+
+  - title: "DeepSegPro: A Novel Deep Learning Architecture for High-Precision Kidney Vasculature Segmentation in HiPCT Images"
+    year: Under review (Biomedical Signal Processing and Control)
+
+  - title: "Advancements in Robotic Puzzle-Solving: Design and Implementation of an Autonomous Rubik's Cube Solver"
+    year: Under review (IJCVR)
+    link: Video Link
+
+title: Blog
+type: map
+contents:
+  - title: "Unlocking ML Potential: Deploying Flask Rest API for Machine Learning Models on Microsoft Azure"
+    link: Medium Blog Link
+
+title: Academic Projects
+type: time_table
+contents:
+  - title: "Into The Future"
+    year: May 2022 - May 2022
+    description:
+      - Implemented a multifaceted project, incorporating secure face recognition using triplet loss and a siamese network.
+      - Automated Attendance tracking system using SQL Database functionalities
+      - Gestured controlled drawing and reading board using Medipipe and PyautoGUI.
+
+  - title: "Even More Fruits"
+    year: Dec 2022 - Jan 2023
+    description:
+      - Designed and developed a machine learning model using MobileNetv2 architecture that achieved 95% accuracy, 95% Precision and 93% F1 Score on a classification task, using a dataset of fruit images
+      - Built a full-stack web application using React.js for the frontend and Flask for the backend, to enable users to interact with the machine learning model through a web interface
+      - Deployed secure web app on Microsoft Azure for scalability and reliability.
+
+title: Skills Summary
+type: nested_list
+contents:
+  - title: Languages
+    items:
+      - Python
+      - GoLang
+      - C#
+      - C
+      - C++
+      - JavaScript
+      - SQL
+
+  - title: Machine Learning
+    items:
+      - Tensorflow
+      - Pytorch
+      - Keras
+      - MLflow
+      - Scikit-Learn
+      - OpenCV
+      - Numpy
+      - Pandas
+      - Kubeflow
+      - Grafana
+
+  - title: Web Development
+    items:
+      - HTML
+      - CSS
+      - Bootstrap
+      - Flask
+      - Django
+      - FASTAPI
+      - React.Js
+      - Express.Js
+      - Apache Kafka
+
+  - title: Cloud
+    items:
+      - Microsoft Azure
+      - Azure ML
+      - Vercel
+      - Google Cloud
+
+  - title: Relevant Coursework
+    items:
+      - Data Structures and Algorithms
+      - Operating System
+      - Mechatronics
+      - Soft Computing
+
+  - title: Soft Skills
+    items:
+      - Communication Skills
+      - Teamwork
+      - Time Management
+      - Leadership
+
+title: Honors and Awards
+type: time_table
+contents:
+  - year: 2020
+    items:
+      - Secured All India Rank of 15244 (Top 1.3 Percentile) among 1.1 Million Students JEE Mains 2020.
+
+  - year: 2022
+    items:
+      - Selected as Microsoft Engage Mentee, 2022 out of 20K applicants.
+
+  - year: 2023
+    items:
+      - Smart India Hackathon(SIH) National Finalist, Hyderabad, India, Top 5 teams selected out of 500+ Teams.
+      - First Position at PIXAR (Digital Image Processing Competition) NIT KKR out of 200+ Participants.
+
+  - year: 2023
+    items:
+      - Third Position in Thapar Summer School-Employee Salary Prediction and Bronze Medal for Kaggle Notebook out of 300+ Participants.
+      - Bronze Medalist for Kaggle Notebook in Forecasting Mini Course Sales.
+
+title: Leadership
+type: time_table
+contents:
+  - title: President
+    institution: Embedded Systems and Robotics Club (EMR), NIT KKR
+    year: May 2023 - May 2024
+    description:
+      - Organized and led embedded system workshops for 60+ students, fostering hands-on learning in building line-following robots.
+      - Conducted a successful Digital Image Processing workshop for 120+ students, enhancing their image analysis and manipulation skills.
+      - Collaborated with fellow club members to plan and execute various robotics projects, competitions, and events.
+
+  - title: Student Council Member
+    institution: Student Council, NIT KKR
+    year: August 2023 - May 2024
+    description:
+      - Led the Students' Council, ensuring seamless cultural activities and functions on campus.
+      - Proposed improvements, prevented ragging, and maintained harmony for enhanced student well-being.
+      - Drove initiatives for students from diverse backgrounds on technical events, expert lectures, and interactive programs—focused on skill enhancement, innovation, and fostering a positive educational environment.
+
+title: Other Interests
+type: list
+contents:
+  - <u>Hobbies:</u> Not specified

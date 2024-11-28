@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a skilled **Machine Learning Engineer** and **researcher** with a strong background in developing cutting-edge models and systems across various domains, including **defense**, **healthcare**, and **computational chemistry**. With expertise in **deep learning**, **computer vision**, and **multimodal models**, I specialize in building innovative solutions that bridge the gap between theoretical research and practical applications. My work focuses on leveraging advanced techniques like **Vision Transformers**, **CNNs**, and **Language Models** to enhance model accuracy and efficiency in real-world scenarios.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As a **researcher**, I am passionate about advancing the fields of **machine learning** and **AI**. My contributions have led to significant improvements in areas such as **molecular property prediction**, **pose estimation**, and **medical image analysis**. I am dedicated to exploring novel approaches and applying them to solve complex problems, driving impactful results in both **industry** and **academia**. Through my work, I continue to push the boundaries of **AI technologies** to create practical, scalable solutions for the future.
